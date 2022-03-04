@@ -1,1 +1,1 @@
-# gms
+# GMS Office Tools snippets
