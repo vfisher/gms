@@ -54,8 +54,9 @@ BEGIN
   @EVENT_ACTION_GETFROMAPI tinyint = 19,              /* получить документ из api-сервера gms */ 
   @EVENT_ACTION_GOTOCHEQUE tinyint = 20,              /* переход к чеку */ 
   --@EVENT_ACTION_REFRESH = 21,                       /* не реализовано */
-  @EVENT_ACTION_AUTOCLOSE_DOC tinyint = 22,           /* автоматический переход и автозакрытие чека */
+  @EVENT_ACTION_AUTOCLOSE_DOC tinyint = 22,           /* автоматический переход и автозакрытие чека */ 
   @EVENT_ACTION_ABORT int = 9999                      /* прервать выполенение текущей операции без отображения ошибки */
+  @EVENT_ACTION_EXIT_WITH_RESULT = 10000              /* вернуть в вызывающий код значение value */
   
 /*
  DlgType int - тип отображаемого диалога (см. google:MessageDlg) */
