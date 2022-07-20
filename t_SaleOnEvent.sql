@@ -56,7 +56,7 @@ BEGIN
   @EVENT_ACTION_GETFROMAPI tinyint = 19,              /* получить документ из api-сервера gms */ 
   @EVENT_ACTION_GOTOCHEQUE tinyint = 20,              /* переход к чеку */ 
   --@EVENT_ACTION_REFRESH = 21,                       /* не реализовано */
-  @EVENT_ACTION_AUTOCLOSE_DOC tinyint = 22,           /* автоматический переход и автозакрытие чека */ 
+  @EVENT_ACTION_AUTOCLOSE_DOC tinyint = 22,           /* автоматический переход и автозакрытие чека, внос-вынос */ 
   @EVENT_ACTION_ABORT int = 9999                      /* прервать выполенение текущей операции без отображения ошибки */
   @EVENT_ACTION_EXIT_WITH_RESULT = 10000              /* вернуть в вызывающий код значение value.
                                                          Имеет смысл только де тех вызовов, возвращаемые значения которых обрабатываются приложением.
@@ -165,6 +165,12 @@ IF @AXml IS NOT NULL
 
         -- В msg описание кнопок, [Action] = показать кнопки, [Caption] - заголовок окна
         SELECT @json Msg, @EVENT_ACTION_BUTTONLIST [Action], 'Разное' Caption, '<blanc><step>1</step></blanc>' cookies
+*/
+
+/*
+  Пример вноса и выноса
+  SELECT @EVENT_ACTION_AUTOCLOSE_DOC [Action], 11051 v1, '<xml><doc doccode="11051"><sum>30</sum><notes>Comment</notes><CodeID1>1</CodeID1></doc></xml>' v2
+  SELECT @EVENT_ACTION_AUTOCLOSE_DOC [Action], 11052 v1,'<xml><doc doccode="11052"><sum>30</sum><CodeID5>3</CodeID1></doc></xml>' v2
 */
 
 
