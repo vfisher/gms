@@ -15,8 +15,8 @@ BEGIN
   @SALE_EVENT_PROCESSING_IS_OFFLINE tinyint = 21,  /* Processing is offline */
   @SALE_EVENT_BEFORE_CLOSE tinyint = 30,           /* Событие начала закрытия чека */
   @SALE_EVENT_AFTER_CLOSE tinyint = 31,            /* Событие окончания закрытия чека */
-  @SALE_EVENT_AFTER_CLOSE_COMPLETED_FULLY = 32,    /* После полного завершения закрытия чека в приложении (можно осуществить переход к другому чеку, добавить товары...) */
-  @SALE_EVENT_ON_CLOSE_CLICK_OK_BUTTON = 33,       /* После сохранения оплат при нажатии OK окне закрытия */
+  @SALE_EVENT_AFTER_CLOSE_COMPLETED_FULLY tinyint = 32,    /* После полного завершения закрытия чека в приложении (можно осуществить переход к другому чеку, добавить товары...) */
+  @SALE_EVENT_ON_CLOSE_CLICK_OK_BUTTON tinyint = 33,       /* После сохранения оплат при нажатии OK окне закрытия */
   @SALE_EVENT_BEFORE_RECEXP tinyint = 40,          /* Событие начала денежного вноса\выноса */
   @SALE_EVENT_ON_RECEXP tinyint = 41,              /* Событие денежного вноса\выноса */
   @SALE_EVENT_BEFORE_ZREP tinyint = 50,            /* Событие начала Z-отчёта */
