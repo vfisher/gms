@@ -20,6 +20,7 @@ BEGIN
   @SALE_EVENT_BEFORE_RECEXP tinyint = 40,          /* Событие начала денежного вноса\выноса */
   @SALE_EVENT_ON_RECEXP tinyint = 41,              /* Событие денежного вноса\выноса */
   @SALE_EVENT_BEFORE_ZREP tinyint = 50,            /* Событие начала Z-отчёта */
+  @SALE_EVENT_ZREP_AFTER_ALL_CHECKS tinyint = 51,  /* Z-отчёт, перед печатью на РРО, но после всех проверок и диалогов */
   @SALE_EVENT_BEFORE_CALC_INV tinyint = 60,        /* Событие начала расчёта инвентаризации */
   @SALE_EVENT_ON_CREATE_INV tinyint = 61,          /* Событие создания инвентаризации */
   @SALE_EVENT_ON_EDIT_INV tinyint = 62,            /* Событие редактирования инвентаризации */
