@@ -172,6 +172,9 @@ IF @AXml IS NOT NULL
   Пример вноса и выноса
   SELECT @EVENT_ACTION_AUTOCLOSE_DOC [Action], 11051 v1, '<xml><doc doccode="11051"><sum>30</sum><notes>Comment</notes><CodeID1>1</CodeID1></doc></xml>' v2
   SELECT @EVENT_ACTION_AUTOCLOSE_DOC [Action], 11052 v1,'<xml><doc doccode="11052"><sum>30</sum><CodeID5>3</CodeID1></doc></xml>' v2
+
+  Пример вызова печатки
+  SELECT '\Внедрение\Инструменты\Инструмент - Переоценки за сегодня.fr3' Msg, @EVENT_ACTION_SHOWPRINTFORM [Action], 0 as Preview
 */
 
 
