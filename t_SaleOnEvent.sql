@@ -30,7 +30,8 @@ BEGIN
   @SALE_EVENT_ON_CUSTOM_QRCODE3 tinyint = 92,      /* Обработка значнения, соответствующего UniInpit с кодом 74 */
   @SALE_EVENT_ON_CUSTOM_REPORTS tinyint = 200,     /* Нажатие кнопки "Разное" в меню Дополнительно */
   @SALE_EVENT_AFTER_PRODADD int = 1000,            /* После добавления товара */
-  @SALE_EVENT_AFTER_GET_DC_FROM_PC int = 1100      /* После обращения к ПЦ за параметрами дисконтной карты */
+  @SALE_EVENT_AFTER_GET_DC_FROM_PC int = 1100,     /* После обращения к ПЦ за параметрами дисконтной карты */
+  @SALE_EVENT_ON_CLICK_OPEN_MONEYBOX int = 2000    /* Нажатие на кнопку "Открыть денежный ящик" */
 /*
  @AXml - произвольные данные, например, код ответа на диалоговое сообщение
  В формате <xml><result>1</result><value>test</value><cookies>произвольные_данные</cookies></xml>
