@@ -1,3 +1,4 @@
+
 [Captions]
 Tfa_ChequeParams.act_Cancel=Отмена~!@#$Скасування~!@#$
 Tfa_ChequeParams.act_Ok=OK~!@#$OK~!@#$
@@ -1938,8 +1939,8 @@ TTranslation.strSVIDACHA_NALICHNIH_OTKLONENA_BANK=Выдача наличных отклонена банк
 TTranslation.strSVIDACHA_NALICHNIH_OTKLYCHENA_NA_=Выдача наличных отключена на данной кассе.~!@#$Видача готівки відключена на даній касі.~!@#$
 TTranslation.strSVIITI_BEZ_OBNULENIYA_KASSI_DLYA_=Выйти без обнуления кассы? Для обнуления нажмите "Нет".~!@#$Вийти без обнулення каси? Щоб обнулити, натисніть "Ні".~!@#$
 TTranslation.strSVIITI_IZ_PROGRAMMI=Выйти из программы?~!@#$Вийти із програми?~!@#$
-TTranslation.strSVINOS=вынос~!@#$видача~!@#$
-TTranslation.strSVINOSA=выноса~!@#$видачі~!@#$
+TTranslation.strSVINOS=Служебный вынос~!@#$Службова видача~!@#$
+TTranslation.strSVINOSA=Служебного выноса~!@#$Службової видачі~!@#$
 TTranslation.strSVIPOLNENNAYA_OPLATA_PLATEJNOI_KA=Выполненная оплата платежной картой не может быть удалена~!@#$Здійснена оплата платіжною карткою не може бути видалена~!@#$
 TTranslation.strSVIPOLNIT__SLUJEBNII_VINOS_DENEG_=Выполнить служебный вынос денег из РРО?~!@#$Виконати службову видачу грошей з РРО?~!@#$
 TTranslation.strSVIPOLNIT__SLUJEBNII_VNOS_DENEG_V=Выполнить служебный внос денег в РРО?~!@#$Виконати службове внесення грошей до РРО?~!@#$
@@ -1954,9 +1955,9 @@ TTranslation.strSVNIMANIE_OSTATOK_V_SEIFE_NULEVOI=ВНИМАНИЕ! Остаток в сейфе нуле
 TTranslation.strSVNIMANIE_SROK_DEISTVIYA_LICENZII=Внимание!!! Срок действия лицензии истекает ~!@#$Увага!!! Строк дії ліцензії закінчується~!@#$
 TTranslation.strSVNIMANIE_SUMMA_SLUJEBNOGO_VINESE=ВНИМАНИЕ! Сумма служебного вынесения больше, чем наличность в ЭККА. Пожалуйста, сообщите об этом администратору магазина.~!@#$УВАГА! Сума службової видачі більше, ніж у РРО. Будь ласка, повідомте про це адміністратору магазину.~!@#$
 TTranslation.strSVNIMANIE_V_EKKA_ZAKANCHIVAETSYA_=ВНИМАНИЕ! В ЭККА заканчивается бумага.~!@#$УВАГА! В РРО закінчується папір.~!@#$
-TTranslation.strSVNOS=внос~!@#$внесення~!@#$
+TTranslation.strSVNOS=Служебный внос~!@#$Службове внесення~!@#$
 TTranslation.strSVNOS_VINOS_OTMENEN=Внос/вынос отменен~!@#$Внесення/видача скасовано~!@#$
-TTranslation.strSVNOSA=вноса~!@#$внесення~!@#$
+TTranslation.strSVNOSA=Служебного вноса~!@#$Службового внесення~!@#$
 TTranslation.strSVO_IZBEJANIE_RASHOJDENIYA_RASCHE=Во избежание расхождения расчетных сумм между БД и РРО, настоятельно рекомендуется установить точность округления цен не более двух знаков после запятой.~!@#$Щоб уникнути розбіжності розрахункових сум між БД і РРО, настійно рекомендується встановити точність округлення цін не більше двох знаків після коми.~!@#$
 TTranslation.strSVOZMOJNO_VI_OTVETILI_MASHINAL_NO=Возможно, вы ответили машинально?~!@#$Можливо, ви відповіли машинально?~!@#$
 TTranslation.strSVOZVRAT=возврат~!@#$повернення~!@#$
