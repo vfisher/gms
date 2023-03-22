@@ -1,3 +1,4 @@
+
 [Captions]
 Tfa_ChequeParams.act_Cancel=Отмена~!@#$Скасування~!@#$
 Tfa_ChequeParams.act_Ok=OK~!@#$OK~!@#$
@@ -1362,7 +1363,6 @@ Tfz_ViewCRJournal.ctl_DocumentBodyMemo.Lines=ctl_DocumentBodyMemo~!@#$~!@#$
 Tfz_ViewCRJournal.ctl_SourceBox.Items="База данных","Кассовый аппарат (РРО)"~!@#$"База даних", "Касовий апарат (РРО)"~!@#$
 
 [OPTIONS]
-CommentsFile=
 Delimiter=~!@#$
 IsUTF8File=0
 
@@ -1835,6 +1835,7 @@ TTranslation.PROCESSING_CONNECTION_ERROR_BREAK=Нет связи с процессинговым центро
 TTranslation.PROCESSING_CONNECTION_ERROR_GET_GIFT_CERTIF_TEXT=Нет связи с процессинговым сервером. Невозможно отоварить электронный подарочный сертификат.Повторить попытку?~!@#$Немає зв'язку із процесинговим сервером. Неможливо отоварити електронний подарунковий сертифікат.Повторити спробу?~!@#$
 TTranslation.PROCESSING_CONNECTION_ERROR_RETRY=Нет связи с процессинговым центром. %sПовторить попытку?~!@#$Немає зв'язку із процесинговим центром. %sПовторити спробу?~!@#$
 TTranslation.PROCESSING_CONNECTION_ERROR_TEXT=Нет связи с процессинговым центром. Невозможно получить данные.Повторить попытку?~!@#$Немає зв'язку із процесинговим центром. Неможливо отримати дані.Повторити спробу?~!@#$
+TTranslation.S_PO=с %s по %s~!@#$~!@#$
 TTranslation.SAKCII_I_NESOVMESTIMI=Акции %s и %s несовместимы.~!@#$Акції %s та %s несумісні.~!@#$
 TTranslation.SAKCII_I_ODNA_IZ_SKIDOK_NA_POZICI=Акции %s и одна из скидок на позицию несовместимы.~!@#$Акції %s та одна зі знижок на позицію несумісні.~!@#$
 TTranslation.SBIBLIOTEKA_ECRCOMMX_DLL_NE_ZAREG=Библиотека 'ECRCommX.dll' не зарегистрирована в системе. Обратитесь к администратору.~!@#$Бібліотека 'ECRCommX.dll' не зареєстрована у системі. Зверніться до адміністратора.~!@#$
