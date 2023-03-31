@@ -1,4 +1,3 @@
-
 [Captions]
 Tfa_ChequeParams.act_Cancel=Отмена~!@#$Скасування~!@#$
 Tfa_ChequeParams.act_Ok=OK~!@#$OK~!@#$
@@ -336,7 +335,7 @@ Tfz_DCardEdit.ctl_PersonSex=ctl_PersonSex~!@#$~!@#$
 Tfz_DCardEdit.ctl_Phone=ctl_Phone~!@#$~!@#$
 Tfz_DCardEdit.Tfz_DCardEdit=Редактирование дисконтной карты~!@#$Редагування дисконтної картки~!@#$
 Tfz_DCards.act_Charity=Благотворительность...~!@#$Благодійність...~!@#$
-Tfz_DCards.act_DCardBySMS=Идентиф. по SMS~!@#$Ідентифікація по SMS~!@#$
+Tfz_DCards.act_DCardBySMS=Идентиф. по SMS~!@#$Ідентиф. по SMS~!@#$
 Tfz_DCards.act_Del=Удалить - F8~!@#$Видалити - F8~!@#$
 Tfz_DCards.act_DiscDescr=Бонусы...~!@#$Бонуси...~!@#$
 Tfz_DCards.act_Edit=Редактировать...~!@#$Редагувати...~!@#$
@@ -530,7 +529,7 @@ Tfz_PosEdit.GMSLabel1=Количество:~!@#$Кількість:~!@#$
 Tfz_PosEdit.GMSLabel2=Цена:~!@#$Ціна:~!@#$
 Tfz_PosEdit.GMSLabel4=Наименование товара:~!@#$Найменування товару:~!@#$
 Tfz_PosEdit.GMSLabel5=Единица измерения:~!@#$Одиниця виміру:~!@#$
-Tfz_PosEdit.lbl_Emp=Идент. служащего:~!@#$Ідентифікація співробітника~!@#$
+Tfz_PosEdit.lbl_Emp=Идент. служащего:~!@#$Іден. співробітника~!@#$
 Tfz_PosEdit.Tfz_PosEdit=Редактирование позиции чека~!@#$Редагування позиції чека~!@#$
 Tfz_PosEditFood.act_OK=OK~!@#$ОК~!@#$
 Tfz_PosEditFood.act_Weight=Взвесить~!@#$Зважити~!@#$
@@ -540,8 +539,8 @@ Tfz_PosEditFood.GMSLabel1=Количество:~!@#$Кількість:~!@#$
 Tfz_PosEditFood.GMSLabel2=Цена:~!@#$Ціна:~!@#$
 Tfz_PosEditFood.GMSLabel4=Наименование товара:~!@#$Найменування товару:~!@#$
 Tfz_PosEditFood.GMSLabel5=Единица измерения:~!@#$Одиниця виміру:~!@#$
-Tfz_PosEditFood.lbl_Emp=Идент. служащего:~!@#$Ідентифікація співробітника~!@#$
-Tfz_PosEditFood.lbl_RetReason=Причина возврата:~!@#$Причина повернення:~!@#$
+Tfz_PosEditFood.lbl_Emp=Идент. служащего:~!@#$Ід. співробітника:~!@#$
+Tfz_PosEditFood.lbl_RetReason=Причина возврата:~!@#$Прич.повернення:~!@#$
 Tfz_PosEditFood.Tfz_PosEditFood=Редактирование позиции чека~!@#$Редагування позиції чека~!@#$
 Tfz_POSTermOperations.act_Cancel=Отмена~!@#$Скасування~!@#$
 Tfz_POSTermOperations.act_POSCallEmployee=Вызов сотрудника банка~!@#$Виклик співробітника банку~!@#$
@@ -1624,6 +1623,7 @@ Tfz_ViewCRJournal.ctl_DocumentBodyMemo.Lines=ctl_DocumentBodyMemo~!@#$~!@#$
 Tfz_ViewCRJournal.ctl_SourceBox.Items="База данных","Кассовый аппарат (РРО)"~!@#$"База даних", "Касовий апарат (РРО)"~!@#$
 
 [OPTIONS]
+CommentsFile=
 Delimiter=~!@#$
 IsUTF8File=0
 
@@ -2065,7 +2065,7 @@ Tfz_POSTermOperations.SVIPOLNYAETSYA_POLUCHENIE_CHEKA_T=Выполняется получение че
 Tfz_POSTermOperations.SVVEDEN_NEVERNII_NOMER=Введен неверный номер.~!@#$Введено неправильний номер.~!@#$
 Tfz_POSTermOperations.SVVEDITE_ID_TOCHKI_UNIKAL_NII_NOM=Введите ID точки (уникальный номер торговой точки, который присваивается при заключении договора с клиентом)~!@#$Введіть ID точки (унікальний номер торгової точки, який присвоюється під час укладання договору з клієнтом)~!@#$
 Tfz_POSTermOperations.SVVEDITE_KOLICHESTVO_RULONOV_BUMA=Введите количество рулонов бумаги~!@#$Введіть кількість рулонів паперу~!@#$
-Tfz_POSTermOperations.SVVEDITE_NOMER_TELEFONA_V_FORMATE=Введите номер телефона в формате '0501234567'~!@#$Введіть номер телефону у форматі '0501234567'~!@#$
+Tfz_POSTermOperations.SVVEDITE_NOMER_TELEFONA_V_FORMATE=Введите номер телефона в формате '0501234567'~!@#$Введіть ном.тел. у фор-ті 0501234567~!@#$
 Tfz_POSTermOperations.SX_OTCHET=X-отчет~!@#$X-звіт~!@#$
 Tfz_POSTermOperations.SZ_OTCHET=Z-отчет~!@#$Z-звіт~!@#$
 Tfz_POSTermOperations.SZAKAZ_BUMAGI=Заказ бумаги~!@#$Замовлення паперу~!@#$
