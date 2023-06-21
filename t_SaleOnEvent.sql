@@ -31,7 +31,7 @@ BEGIN
   @SALE_EVENT_ON_CUSTOM_QRCODE2 tinyint = 91,      /* Обработка значнения, соответствующего UniInpit с кодом 73 */
   @SALE_EVENT_ON_CUSTOM_QRCODE3 tinyint = 92,      /* Обработка значнения, соответствующего UniInpit с кодом 74 */
   @SALE_EVENT_ON_CUSTOM_REPORTS tinyint = 200,     /* Нажатие кнопки "Разное" в меню Дополнительно */
-  @SALE_EVENT_ON_BALANCE_INCORRECT tinyint = 220,  /* Возник некоректный баланс (в любом месте) */
+ -- @SALE_EVENT_ON_BALANCE_INCORRECT tinyint = 220,  /* Возник некоректный баланс (в любом месте) */
   @SALE_EVENT_AFTER_PRODADD int = 1000,            /* После добавления товара */
   @SALE_EVENT_AFTER_GET_DC_FROM_PC int = 1100,     /* После обращения к ПЦ за параметрами дисконтной карты */
   @SALE_EVENT_ON_CLICK_OPEN_MONEYBOX int = 2000    /* Нажатие на кнопку "Открыть денежный ящик" */
@@ -62,8 +62,10 @@ BEGIN
   @EVENT_ACTION_GOTOCHEQUE tinyint = 20,              /* переход к чеку */ 
   --@EVENT_ACTION_REFRESH = 21,                       /* не реализовано */
   @EVENT_ACTION_AUTOCLOSE_DOC tinyint = 22,           /* автоматический переход и автозакрытие чека, внос-вынос */ 
+  @EVENT_ACTION_RECALC_POS_DISCS tinyint = 24,        /* полный пересчет позиционных скидок дисконтной системой */
+  @EVENT_ACTION_CLOSE_CURRENT_MODAL_FORM tinyint = 26,/* закрытие текущей модальной формы (например, окно Дополнительно) */
   @EVENT_ACTION_ABORT int = 9999                      /* прервать выполенение текущей операции без отображения ошибки */
-  @EVENT_ACTION_EXIT_WITH_RESULT = 10000              /* вернуть в вызывающий код значение value.
+  @EVENT_ACTION_EXIT_WITH_RESULT int = 10000          /* вернуть в вызывающий код значение value.
                                                          Имеет смысл только де тех вызовов, возвращаемые значения которых обрабатываются приложением.
                                                          Сейчас это SALE_EVENT_BEFORE_CLOSE. Если вернуть value = 1, чек будет отменен. Таким образом можно сменить 
                                                          закрытие чека на отмену на лету */
