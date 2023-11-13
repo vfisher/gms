@@ -30,6 +30,7 @@ BEGIN
   @SALE_EVENT_ON_CUSTOM_QRCODE tinyint = 90,       /* Обработка значнения, соответствующего UniInpit с кодом 72 */
   @SALE_EVENT_ON_CUSTOM_QRCODE2 tinyint = 91,      /* Обработка значнения, соответствующего UniInpit с кодом 73 */
   @SALE_EVENT_ON_CUSTOM_QRCODE3 tinyint = 92,      /* Обработка значнения, соответствующего UniInpit с кодом 74 */
+  @SALE_EVENT_BEFORE_OPEN_SHIFT tinyint = 100,     /* Перед відкриттям зміни */
   @SALE_EVENT_ON_CUSTOM_REPORTS tinyint = 200,     /* Нажатие кнопки "Разное" в меню Дополнительно */
  -- @SALE_EVENT_ON_BALANCE_INCORRECT tinyint = 220,  /* Возник некоректный баланс (в любом месте) */
   @SALE_EVENT_AFTER_PRODADD int = 1000,            /* После добавления товара */
