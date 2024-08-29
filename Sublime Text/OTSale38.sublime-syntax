@@ -1,8 +1,8 @@
 %YAML 1.2
 ---
 # See http://www.sublimetext.com/docs/syntax.html
-file_extensions:
-  - ec
+file_extensions: [log.txt]
+  #- ec
 scope: source.example-c
 contexts:
   main:
@@ -35,14 +35,25 @@ contexts:
       scope: constant.numeric.example-c
 
       # Numbers 
-    - match: '(?i)\bошибка\b.*'
+    - match: '(?i)\b(ошибка|Запись об ошибке)\b.*'
       scope: vfisher.error
 
+    - match: '(?i)\bСООБЩЕНИЕ.*'
+      scope: storage.type
+
+    - match: '(?i)\bОтображение окна закрытия чека\b.*'
+      scope: variable.parameter
+
+    - match: '(?i)\b(Установлен статус|Установка статуса)\b\s(.*)'
+      captures:
+        1: entity.name.class
+        2: invalid
+      
     # Прро
-    - match: '(?i)\b_IsConnectNetPRRO\b.*'
+    - match: '(?i)\b(_IsConnectNetPRRO|GetModemStatus)\b.*'
       push: line_comment
 
-    - match: '(?i)\b(FIsBlockSendOfflineDocsCheckStatus|Переход в офлайн)\b.*'
+    - match: '(?i)\b(FIsBlockSendOfflineDocsCheckStatus|Переход в офлайн|IsSentPackage)\b.*'
       push: line_comment
 
     - match: '(?i)\b(CheckOfflineBackground|Блокировка\sперехода|Документ\sФН|SendMessageJSON|StartOfflineSession)\b.*'
@@ -50,7 +61,7 @@ contexts:
 
     - match: '(?i)\b(GetStatus|Offline\ssession|SetOfflineModeState|ПРРО|OpenOfflineSession)\b.*'
       push: line_comment      
-  
+
   #gms: 
 
 
