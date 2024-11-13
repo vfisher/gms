@@ -1,3 +1,4 @@
+
 [Captions]
 Tfa_CRActions.act_CancelCommand=Отмена команды~!@#$Скасування команди~!@#$
 Tfa_CRActions.act_CfgDefault=По умолчанию~!@#$За замовчуванням~!@#$
@@ -9917,7 +9918,6 @@ TSchedulerForm.ctl_DoWList.Items=Понедельник,Вторник,Среда,Четверг,Пятница,Суббо
 TSchedulerForm.ctl_MonthesList.Items=Январь,Февраль,Март,Апрель,Май,"Июнь ",Июль,Август,Сентябрь,Октябрь,Ноябрь,Декабрь~!@#$Січень,Лютий,Березень,Квітень,Май,Червень,Липень,Серпень,Вересень,Жовтень,Листопад,Грудень~!@#$
 
 [OPTIONS]
-CommentsFile=
 Delimiter=~!@#$
 IsUTF8File=0
 
@@ -11057,6 +11057,7 @@ Tft_WOrderExt.SPODGRUPPA_2=Подгруппа 2~!@#$Підгрупа 2~!@#$
 Tft_WOrderExt.SPODGRUPPA_3=Подгруппа 3~!@#$Підгрупа 3~!@#$
 Tft_WOrderExt.SPREDUSMOTRENO_TOL_KO_DLYA_GMS_BI=Предусмотрено только для GMS Бизнес~!@#$Передбачено лише для GMS Бізнес~!@#$
 Tft_WOrderExt.SPRIBAVLENIYA_K=прибавления к %s количеству ~!@#$додавання до %s кількості ~!@#$
+Tft_WOrderExt.SPRIBAVLENIYA_K1=прибавления к ~!@#$додаваня до~!@#$
 Tft_WOrderExt.SRASSCHITIVAT__OBSHII_ZAKAZ_DLYA_=Рассчитывать общий заказ для групп альтернатив. Пожалуйста подождите...~!@#$Розраховується загальне замовлення груп альтернатив. Будь ласка, зачекайте...~!@#$
 Tft_WOrderExt.SREESTR=Реестр >>~!@#$Реєстр >>~!@#$
 Tft_WOrderExt.SREESTR_1=<< Реестр~!@#$<< Реєстр~!@#$
@@ -11071,6 +11072,7 @@ Tft_WOrderExt.SSUMMA_MEN_SHE_CHEM=; Сумма меньше, чем ~!@#$; Сума менша, ніж ~!@
 Tft_WOrderExt.SUMNOJENIYA=умножения~!@#$множення~!@#$
 Tft_WOrderExt.SUSTANAVLIVAETSYA_FIL_TR_POJALUIS=Устанавливается фильтр. Пожалуйста подождите...~!@#$Встановлюється фільтр. Будь ласка, зачекайте...~!@#$
 Tft_WOrderExt.SVICHITANIYA_IZ=вычитания из %s количества~!@#$віднімання з %s кількості~!@#$
+Tft_WOrderExt.SVICHITANIYA_IZ1=вычитания из ~!@#$віднімання від ~!@#$
 Tft_WOrderExt.SVPERED=Вперед >>~!@#$Вперед >>~!@#$
 Tft_WOrderExt.SVSE_ZNACHENIYA_KOLICHESTVA=Все значения количества~!@#$Усі значення кількості~!@#$
 Tft_WOrderExt.SVSE_ZNACHENIYA_SUMM=; Все значения сумм~!@#$; Усі значення сум~!@#$
