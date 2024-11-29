@@ -1,6 +1,5 @@
-
 [Captions]
-Tfa_ClientMonitorView.lbl_OperNameDesc=Кассир:~!@#$~!@#$
+Tfa_ClientMonitorView.lbl_OperNameDesc=Кассир:~!@#$Касир:~!@#$
 Tfa_ClientMonitorView.lbl_SumDesc=Сумма:~!@#$~!@#$
 Tfa_Lock.btn_RegEmployee=Перейти в режим регистрации служащего~!@#$~!@#$
 Tfa_Lock.btn_UnLock=Разблокировать~!@#$~!@#$
@@ -886,6 +885,7 @@ Language_1=Russian
 Language_2=Ukrainian
 
 [OPTIONS]
+CommentsFile=
 Delimiter=~!@#$
 IsUTF8File=0
 
